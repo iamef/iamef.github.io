@@ -1,0 +1,34 @@
+
+.thumbnail{
+/*  height: 100px; */
+/*  position:relative;*/
+/*  padding-bottom:75%;*/
+/*  vertical-align: center;*/
+/*  justify-content: center;*/
+/*  justify-items: center;*/
+/*  justify-self: center;*/
+/*  overflow:hidden;*/
+  text-align: center;
+/*  align-items: center;*/
+/*  vertical-align: middle;*/
+}
+
+.projects col{
+/*
+  justify-content: center;
+  align-items: center;
+  flex:auto
+*/
+/*  text-align: center;*/
+/*  vertical-align: middle;*/
+/*  margin: auto;*/
+}
+
+.projects img{
+/*  position:absolute;*/
+/*  width: 75%;*/
+/*  vertical-align: middle;*/
+/*  text-align: center;*/
+/*  object-fit: cover;*/
+  padding: 10%
+}
