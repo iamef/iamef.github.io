@@ -49,7 +49,9 @@
   margin-bottom: 0.5rem;
 }
 
-.projects col{
+.projects img{
+  max-height: 300px;  
+  object-fit: contain;
 /*
   justify-content: center;
   align-items: center;
