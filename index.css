@@ -13,7 +13,45 @@
 /*  vertical-align: middle;*/
 }
 
-.projects col{
+.experience-item{
+  display: flex; 
+  align-items: flex-start; 
+  margin-bottom: 2rem;
+}
+
+/* .experience-item {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 2rem;
+  gap: 16px;
+} */
+
+.experience-item img {
+  height: 40px;
+  width: 40px;
+  border-radius: 8px;
+  margin-left: 0px;
+  margin-right: 16px; 
+  margin-top: 4px;
+  flex-shrink: 0;
+  object-fit: contain;
+}
+
+.experience-item .content {
+  flex: 1;
+}
+
+.experience-item h5 {
+  margin-bottom: 0.5rem;
+}
+
+.experience-item p {
+  margin-bottom: 0.5rem;
+}
+
+.projects img{
+  max-height: 300px;  
+  object-fit: contain;
 /*
   justify-content: center;
   align-items: center;
