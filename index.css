@@ -70,3 +70,37 @@
 /*  object-fit: cover;*/
   padding: 10%
 }
+
+.value-toggle {
+  background-color: transparent;
+  border-color: #ccc;
+  color: #444;
+  font-weight: 500;
+  transition: background-color 0.15s ease;
+}
+
+.value-toggle:hover {
+  background-color: #f8f8f8;
+  color: #222;
+}
+
+.value-toggle[aria-expanded="true"] {
+  background-color: #f0f0f0;
+  border-color: #999;
+}
+
+.value-chevron {
+  transition: transform 0.2s ease;
+  display: inline-block;
+}
+
+.value-toggle[aria-expanded="true"] .value-chevron {
+  transform: rotate(180deg);
+}
+
+.value-body {
+  border: 1px solid #e0e0e0;
+  border-top: none;
+  border-radius: 0 0 4px 4px;
+  background-color: #fafafa;
+}
