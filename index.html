@@ -88,7 +88,7 @@
           <div>
             <h5>Software Engineer @ <a href="https://truu.ai">Truu.ai</a></h5>
             <p><em>November 2025 - February 2026 | San Francisco Bay Area, CA</em></p>
-            <p>Shipped features for enterprise security analyst workflows for an AI-powered security platform. Built a cross-client mapping system to investigate threats from multiple data source providers. Implemented role-based access controls to scope investigation permissions by role. Delivered a log export pipeline for large-scale offline analysis. Consolidated duplicate authentication logic to improve platform reliability and maintainability. Built a web scraping pipeline to auto-generate a glossary of company jargon from internal documentation.</p>
+            <p>Shipped enterprise features for security analyst workflows. Architected async CSV export pipeline for security logs using Python, Celery, Docker, and AWS S3 for enterprise-scale offline analysis. Implemented role-based access control to restrict write endpoints to assigned administrators while preserving read access for analysts. Built a cross-client event mapping system for Gmail, Teams, and Outlook to enable threat investigation across multiple enterprise clients simultaneously. Eliminated 100+ lines of duplicate JWT authentication code by refactoring into reusable middleware decorators across all route modules.</p>
           </div>
         </div>
 
@@ -97,7 +97,7 @@
           <div>
             <h5>Research Scholar @ <a href="https://www.matsprogram.org">ML Alignment & Theory Scholars</a></h5>
             <p><em>June 2024 - August 2024 | Berkeley, CA</em></p>
-            <p>Trained steering vectors to reduce deceptive behavior in LLMs using PyTorch. </p>
+            <p>Researched and trained unsupervised steering vectors to reduce deceptive behavior in LLMs using PyTorch. Analyzed 4,800+ steering vectors to categorize response types and found poor generalization across prompt contexts.</p>
           </div>
         </div>
 
@@ -106,7 +106,7 @@
           <div>
             <h5>Software Engineering Intern @ <a href="https://www.muninn.ai">Muninn</a></h5>
             <p><em>January 2024 - April 2024 | Copenhagen, Denmark</em></p>
-            <p>Researched and spearheaded efforts to integrate our AI Prevent with Cisco ISE to block suspicious network activity. Completed Agile story to increase visibility of device Ubuntu version and many sprint tasks to upgrade Spring Boot. </p>
+            <p>Researched and designed Cisco ISE API integration for Muninn AI Prevent to enable automated threat blocking. Parsed Linux command outputs in Java Spring Boot to surface Ubuntu version for network devices, shipped to production with edge case handling for startup and shutdown. Fixed 50+ broken test cases for a major Spring Boot version 1 to version 2 upgrade.</p>
           </div>
         </div>
 
@@ -116,7 +116,7 @@
           <div>
             <h5>Data Science Intern @ <a href="https://skilllab.io">SkillLab</a></h5>
             <p><em>September 2023 - December 2023 | Amsterdam, Netherlands</em></p>
-            <p>Developed dashboards and auto-generated reports for company impact tracking using SQL, Python, and Postgres. Customer Success team reported swift data delivery. Provided detailed documentation of my work to smoothly handoff my work to other employees. Organized a meditation event, interns lunch, and 1-1s to get to know coworkers.</p>
+            <p>Designed and built client usage dashboard in Power BI and Google Looker from scratch, incorporating feedback from multiple stakeholders; adopted by the customer success and business teams. Refactored client report generator into a config-driven system using Python, SQL, and Postgres enabling parameterized delivery; praised by the customer success team for rapid turnaround on client-requested reports. Built a webscraping tool to collect hundreds of career development programs, eliminating hours of manual data collection. Proactively proposed and presented my work to the company as one of the few interns to do so. Organized a meditation event, interns lunch, and 1-1s to get to know coworkers.</p>
           </div>
         </div>
 
@@ -125,7 +125,7 @@
           <div>
             <h5>Data Science Intern @ <a href="https://flyr.com/hospitality">FLYR for Hospitality</a></h5>
             <p><em>June 2023 - September 2023 | London, United Kingdom</em></p>
-            <p>Demonstrated viability of agent-based models to create digital twins of hotel guests. Developed metrics to evaluate model accuracy and improved some metrics by 50% or more. Streamlined simulation generation and hyperparameter scanning processes using Python and Pandas. Provided detailed documentation and successfully onboarded an employee to continue my work. </p>
+            <p>Orchestrated an end-to-end Python pipeline automating hyperparameter selection, simulation execution, and evaluation of agent-based models on real hotel booking data, improving some metrics by 50%+. Demonstrated viability of agent-based models to create digital twins of hotel guests. Inherited an undocumented legacy codebase; authored comprehensive technical documentation and onboarded a team member to continue the work.</p>
           </div>
         </div>
 
@@ -134,7 +134,7 @@
           <div>
             <h5>Software Engineer Intern @ <a href="https://www.tableau.com">Tableau</a></h5>
             <p><em>May 2022 - August 2022 | Seattle, WA</em></p>
-            <p>Built an Apache Flink job in Java to calculate site availability by parsing logs and sending data to Snowflake and AWS. Identified availability discrepancies of >50% between data sources using Python, SQL, and Tableau visualizations.</p>
+            <p>Built an Apache Flink streaming pipeline in Java to parse application logs and compute availability metrics for Tableau Online, outputting millions of standardized events to Snowflake as part of a Salesforce infrastructure migration. Revealed the replacement pipeline missed entire URL categories and the legacy pipeline dropped high-latency requests by analyzing access logs across production pods using Python.</p>
           </div>
         </div>
 
@@ -157,7 +157,7 @@
           <div>
             <h5>Android Developer Intern @ <a href="https://web.archive.org/web/20170628184813/https://www.peel.com/">Peel</a></h5>
             <p><em>June 2017 - August 2017 | Remote</em></p>
-            <p>Redesigned user interface of helicopter remote control app prototype. Incorporated user feedback to improve user experience. Released app to Google Play Store. App received over 10,000 installs and 4.5/5 star rating on Google Play Store.</p>
+            <p>Redesigned user interface of helicopter remote control app prototype, and iterated based on user testing. Shipped to Google Play Store; reached 50,000+ downloads and a 4.5/5 star rating.</p>
 
             <h6><strong>Public artifact: <a href="https://web.archive.org/web/20230224045853/https://play.google.com/store/apps/details?id=com.remote.helicopter">Helicopter Remote App</a></strong></h6>
           </div>
@@ -250,7 +250,7 @@
               </div>
               <div class="card-body">
                 <h5 class="card-title"><a href="https://chromewebstore.google.com/detail/tab-snooze-manifest-v3/kgnigbfnfjgpfaiaafcbgdkpalapiinb">Tab Snooze Fork</a></h5>
-                <p class="card-text">Current maintainer of the Tab Snooze Chrome Extension. Forked broken version of Tab Snooze, released a fix, and updated Chrome Manifest version. Currently updating extension from React version 16 to 18. Used by 2,000 users with a 4.8 stars overall rating on the Google Chrome webstore. See Github repo <a href="https://github.com/csandapp/tab-snooze-extension-continued/">here</a>.</p>
+                <p class="card-text">Forked and restored Tab Snooze by fixing a CSS issue and upgrading to Chrome Manifest v3. Upgraded from React 16 to React 18 to improve performance and leverage modern framework features. Diagnosed a chronic duplicate-tab bug (tabs opening 2-5x) by tracing root causes to concurrent wakeup calls and duplicate alarm listeners; resolved with an in-memory mutex and Service Worker context guard. Incorporating new feature requests from users such as snoozing windows and importing/exporting tabs. Maintained a 4.8-star rating across 3,000 active users as core solo developer. See Github repo <a href="https://github.com/csandapp/tab-snooze-extension-continued/">here</a>.</p>
               </div>
             </div>
           </div>
